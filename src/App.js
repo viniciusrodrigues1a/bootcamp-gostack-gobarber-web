@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
@@ -10,6 +11,10 @@ import history from './services/history';
 import { store, persistor } from './store';
 
 import GlobalStyle from './styles/global';
+
+toast.configure({
+  autoClose: 3000,
+});
 
 function App() {
   return (
