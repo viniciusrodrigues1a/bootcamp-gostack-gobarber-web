@@ -58,7 +58,7 @@ export const Scroll = styled(PerfectScrollbar)`
 export const Notification = styled.div`
   color: #fff;
 
-  &:not(:first-child):not(:last-child) {
+  & + div {
     margin-top: 0.9375rem;
     padding-top: 0.9375rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
