@@ -41,7 +41,7 @@ yarn install
 Rodando a aplicação:
 
 ```sh
-yarn dev
+yarn start
 ```
 
 ## ⛏️ Feito com <a name = "built_using"></a>
