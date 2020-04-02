@@ -8,7 +8,7 @@ export const AuthGlobalStyles = createGlobalStyle`
 `;
 
 export const Wrapper = styled.div`
-  margin: 7% 0 4%;
+  padding: 7% 0 4%;
   display: flex;
   justify-content: center;
   align-items: center;
